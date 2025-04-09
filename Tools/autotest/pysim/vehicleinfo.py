@@ -405,6 +405,10 @@ class VehicleInfo(object):
                 "waf_target": "bin/arduplane",
                 "default_params_filename": "default_params/stratoblimp.parm",
             },
+            "gazebo-quadplane": {
+                "waf_target": "bin/arduplane",
+                "default_params_filename": "default_params/gazebo_quadplane.parm",
+            },
         },
     },
     "Rover": {
